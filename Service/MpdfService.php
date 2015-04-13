@@ -1,5 +1,5 @@
 <?php
-namespace TFox\MpdfPortBundle\Service;
+namespace ChrisAndChris\MpdfPortBundle\Service;
 
 use Symfony\Component\HttpFoundation\Response;
 

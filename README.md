@@ -17,7 +17,7 @@ Installation
 * Add a new line to `app/AppKernel.php`:
 <pre><code>$bundles = array(
   ...
-  new TFox\MpdfPortBundle\TFoxMpdfPortBundle(),
+  new ChrisAndChris\MpdfPortBundle\TFoxMpdfPortBundle(),
 )
 </code></pre>
 
@@ -32,7 +32,7 @@ Installation
 </code></pre>
 
 * Add a new line to `app/AppKernel.php`:
-<pre><code>new TFox\MpdfPortBundle\TFoxMpdfPortBundle(), 
+<pre><code>new ChrisAndChris\MpdfPortBundle\TFoxMpdfPortBundle(),
 </code></pre>
 
 * Add a new line to `app/autoload.php`:

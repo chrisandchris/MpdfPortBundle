@@ -1,6 +1,6 @@
 <?php
 
-namespace TFox\MpdfPortBundle\DependencyInjection;
+namespace ChrisAndChris\MpdfPortBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
