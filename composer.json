@@ -1,40 +1,41 @@
 {
-	"name" : "tfox/mpdf-port-bundle",
-	"description" : "A wrapper for mPDF class which allows to use mPDF in Symfony2 projects",
-	"type" : "symfony-bundle",
-	"authors" : [{
-			"name" : "Sergei Beljakov",
-			"email" : "sergei.beljakov@tfox.eu"
-		}
-	],
-	"keywords" : [
-		"mPDF",
-		"PDF"
-	],
-	"homepage" : "http://github.com/tasmanianfox/MpdfPortBundle",
-	"license" : [
-		"MIT"
-	],
-	"require" : {
-		"mpdf/mpdf" : ">=5.7",
-		"symfony/framework-bundle" : "~2.1"
-	},
-	"require-dev" : {
-		"symfony/security-bundle" : "*",
-		"symfony/yaml" : "*",
-		"symfony/class-loader" : "*",
-		"symfony/browser-kit" : "*",
-		"sensio/framework-extra-bundle" : "*"
-	},
-	"autoload" : {
-		"psr-0" : {
-			"TFox\\MpdfPortBundle" : ""
-		}
-	},
-	"target-dir" : "TFox/MpdfPortBundle",
-	"extra" : {
-		"branch-alias" : {
-			"dev-master" : "1.2-dev"
-		}
-	}
+  "name": "chrisandchris/mpdf-port-bundle",
+  "description": "A for of the tfox/mpdf-port-bundle with enhanced response handling",
+  "type": "symfony-bundle",
+  "authors": [
+    {
+      "name": "Christian Klauenbösch",
+      "email": "christian@klit.ch"
+    }
+  ],
+  "keywords": [
+    "mPDF",
+    "PDF"
+  ],
+  "homepage": "https://github.com/chrisandchris/MpdfPortBundle",
+  "license": [
+    "MIT"
+  ],
+  "require": {
+    "mpdf/mpdf": "~5.7",
+    "symfony/framework-bundle": "~2.1"
+  },
+  "require-dev": {
+    "symfony/security-bundle": "*",
+    "symfony/yaml": "*",
+    "symfony/class-loader": "*",
+    "symfony/browser-kit": "*",
+    "sensio/framework-extra-bundle": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "TFox\\MpdfPortBundle": ""
+    }
+  },
+  "target-dir": "ChrisAndChris/MpdfPortBundle",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.2-dev"
+    }
+  }
 }
